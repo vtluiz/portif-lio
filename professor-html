@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitor Luiz | Professor de Futebol</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Netflix+Sans:wght@300;400;700&display=swap" rel="stylesheet">   
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Efeito de fundo Netflix -->
+    <div class="background-effect"></div>
+
+    <!-- Header -->
+    <header class="header" id="main-header">
+        <a href="#" class="logo">
+            <i class="fas fa-futbol"></i>VL<span>Professor</span>
+        </a>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">Desenvolvedor</a>
+            <a href="atleta.html" class="nav-link">Atleta</a>
+            <a href="#contact" class="nav-link">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Profile: Professor de Futebol -->
+        <div class="hero coach-hero">
+            <div class="hero-content">
+                <h1>Vitor Luiz</h1>
+                <p>Professor de Escolinha de Futebol</p>
+                <div class="hero-buttons">
+                    <a href="#coach-method" class="btn btn-primary">Minha Metodologia</a>
+                    <a href="#coach-about" class="btn btn-secondary">Sobre Mim</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section" id="coach-about">
+            <h2 class="section-title">Sobre Minha Carreira Esportiva</h2>
+            <p>Com mais de 5 anos de experiência em escolinhas de futebol, trago uma abordagem moderna e lúdica para o ensino do esporte para crianças e adolescentes. Minha paixão pelo futebol começou cedo, e hoje busco transmitir não apenas técnicas esportivas, mas também valores como disciplina, trabalho em equipe e respeito.</p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Treino com crianças" class="card-img">
+                    <div class="card-content">
+                        <h3>Formação</h3>
+                        <p>Licença CBF Escola - Confederação Brasileira de Futebol</p>
+                        <p>Curso de Formação de Treinadores - Federação Catarinense de Futebol</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Experiência" class="card-img">
+                    <div class="card-content">
+                        <h3>Experiência</h3>
+                        <p>5+ anos ensinando futebol para crianças e adolescentes</p>
+                        <p>Escolinha de Futebol Jovens Talentos (2018-2020)</p>
+                        <p>Projeto Bola na Rede (2020-atualmente)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section" id="coach-method">
+            <h2 class="section-title">Metodologia de Ensino</h2>
+            <p>Minha metodologia se baseia em três pilares fundamentais que buscam desenvolver não apenas atletas, mas cidadãos conscientes e responsáveis:</p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-user-graduate"></i> Desenvolvimento Técnico</h3>
+                        <p>Foco no desenvolvimento individualizado das habilidades técnicas de cada aluno, respeitando seu ritmo e potencial. Trabalho com exercícios específicos para fundamentos como passe, chute, condução e domínio de bola.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-handshake"></i> Valores através do Esporte</h3>
+                        <p>Formação de valores como respeito, disciplina, trabalho em equipe e fair play. O futebol como ferramenta de educação e transformação social, ensinando importantes lições para a vida.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-laugh-beam"></i> Diversão como Motivação</h3>
+                        <p>Aprendizado através de brincadeiras e atividades lúdicas que mantêm as crianças motivadas e engajadas. Jogos e exercícios divertidos que desenvolvem habilidades sem deixar de lado a alegria do esporte.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="category-title" style="margin-top: 40px;"><i class="fas fa-futbol"></i> Modalidades de Aula</h3>
+            <div class="projects-carousel">
+                <div class="carousel-container">
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1599058918134-5cb3e2cbd5d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Aulas em Grupo" class="project-image">
+                        <div class="project-info">
+                            <h3>Aulas em Grupo</h3>
+                            <p>Treinos coletivos para desenvolvimento de habilidades em equipe e sociabilidade.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Treino Individual" class="project-image">
+                        <div class="project-info">
+                            <h3>Treino Individual</h3>
+                            <p>Acompanhamento personalizado para desenvolvimento específico de habilidades.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Campeonatos" class="project-image">
+                        <div class="project-info">
+                            <h3>Campeonatos Internos</h3>
+                            <p>Competições saudáveis que estimulam o espírito esportivo e a superação.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-nav">
+                    <button class="carousel-btn" onclick="scrollCarousel(this, -300)"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn" onclick="scrollCarousel(this, 300)"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2 class="section-title">Depoimentos</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-quote-left"></i> Pai do João, 10 anos</h3>
+                        <p>"O professor Vitor transformou a relação do meu filho com o esporte. Hoje ele não só joga melhor, mas também aprendeu valores importantes como respeito e trabalho em equipe."</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-quote-left"></i> Mãe da Maria, 8 anos</h3>
+                        <p>"Minha filha adora as aulas! O professor tem uma paciência incrível e consegue tornar cada exercício em uma brincadeira divertida. Super recomendo!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section" id="contact">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p>Interessado em aulas de futebol para seu filho(a)? Entre em contato para agendar uma aula experimental!</p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-envelope"></i> Email</h3>
+                        <p>vitor.professor@email.com</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-phone"></i> Telefone</h3>
+                        <p>(48) 99914-7421</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-map-marker-alt"></i> Localização</h3>
+                        <p>Escolinha de Futebol Bola na Rede</p>
+                        <p>Santa Catarina, Brasil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="index.html" class="footer-link">Desenvolvedor</a>
+            <a href="atleta.html" class="footer-link">Carreira Esportiva</a>
+            <a href="#contact" class="footer-link">Contato</a>
+        </div>
+        <p>&copy; 2024 Vitor Luiz. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Carousel navigation function
+        function scrollCarousel(btn, amount) {
+            const carousel = btn.parentElement.parentElement.querySelector('.carousel-container');
+            carousel.scrollBy({ left: amount, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
