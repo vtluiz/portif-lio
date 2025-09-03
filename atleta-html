@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitor Luiz | Carreira Esportiva</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Netflix+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Efeito de fundo Netflix -->
+    <div class="background-effect"></div>
+
+    <!-- Header -->
+    <header class="header" id="main-header">
+        <a href="#" class="logo">
+            <i class="fas fa-running"></i>VL<span>Atleta</span>
+        </a>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">Desenvolvedor</a>
+            <a href="professor.html" class="nav-link">Professor</a>
+            <a href="#contact" class="nav-link">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Profile: Carreira Esportiva -->
+        <div class="hero sports-hero">
+            <div class="hero-content">
+                <h1>Vitor Luiz</h1>
+                <p>Jogador de Futebol</p>
+                <div class="hero-buttons">
+                    <a href="#my-dream" class="btn btn-primary">Meu Sonho</a>
+                    <a href="#my-journey" class="btn btn-secondary">Minha Jornada</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section" id="my-journey">
+            <h2 class="section-title">Minha Jornada no Futebol</h2>
+            <p>Desde os 6 anos de idade, o futebol faz parte da minha vida. Passei por várias categorias de base e hoje atuo como semi-profissional, conciliando a carreira esportiva com minha formação acadêmica.</p>
+            
+            <div class="media-grid">
+                <div class="media-item">
+                    <img src="https://images.unsplash.com/photo-1579952363878-3c3c90904062?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Jogando pelo time local">
+                    <div class="media-caption">Atuando pelo time local em 2022</div>
+                </div>
+                
+                <div class="media-item">
+                    <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1905&q=80" alt="Treinamento diário">
+                    <div class="media-caption">Treinamento diário para evolução constante</div>
+                </div>
+                
+                <div class="media-item">
+                    <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Comemoração de gol">
+                    <div class="media-caption">Comemoração de gol no campeonato estadual</div>
+                </div>
+            </div>
+
+            <h3 class="section-title" style="margin-top: 40px;"><i class="fas fa-trophy"></i> Conquistas e Estatísticas</h3>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-medal"></i> Títulos</h3>
+                        <p>🏆 Campeonato integração - 2023</p>
+                        <p>🥈 Vice-campeonato MUnicipal- 2024</p>
+                        <p>🥉 Terceiro lugar na Copa Regional - 2023</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-chart-line"></i> Estatísticas</h3>
+                        <p>⚽ 32 jogos</p>
+                        <p>🎯 9 assistências</p>
+                        <p>💀 lider em desarmes - 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section" id="my-dream">
+            <h2 class="section-title">Meu Sonho</h2>
+            <p>Desde criança, meu maior sonho é me tornar um jogador profissional e poder inspirar outras crianças a perseguirem seus objetivos, tanto no esporte quanto na vida.</p>
+            <p>Acredito que o futebol vai muito além do jogo - é uma escola de vida que ensina disciplina, trabalho em equipe e superação. Meu objetivo é chegar ao futebol profissional e, posteriormente, me tornar um treinador para formar novas gerações de atletas.</p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1599669454699-248893623464?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Treino profissional" class="card-img">
+                    <div class="card-content">
+                        <h3>Objetivos Profissionais</h3>
+                        <p>Ingressar em um time profissional até 2027</p>
+                        <p>Disputar competições nacionais</p>
+                        <p>Representar o Brasil no exterior</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Projeto social" class="card-img">
+                    <div class="card-content">
+                        <h3>Projetos Sociais</h3>
+                        <p>Criar uma escolinha de futebol gratuita</p>
+                        <p>Mentorar jovens talentos</p>
+                        <p>Promover o esporte em comunidades carentes</p>
+                    </div>
+                </div>
+            </div>
+
+            <blockquote style="margin-top: 30px; padding: 20px; border-left: 4px solid var(--netflix-red); background: rgba(229, 9, 20, 0.1);">
+                <p>"O sucesso nasce do querer, da determinação e persistência em se chegar a um objetivo. Mesmo não atingindo o alvo, quem busca e vence obstáculos, no mínimo fará coisas admiráveis."</p>
+                <footer>- José de Alencar</footer>
+            </blockquote>
+        </div>
+
+        <div class="content-section">
+            <h2 class="section-title">Rotina de Treinos</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-running"></i> Segunda a Sexta</h3>
+                        <p>🏃‍♂️ 18h - Corrida diaria</p>
+                        <p>⚽ 19h - Treino técnico</p>
+                        <p>💪 21:30h - Musculação</p>
+                        <p>🧠 19h - Estudo de táticas</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-calendar-alt"></i> Finais de Semana</h3>
+                        <p>🥅 Sábado - Treino coletivo</p>
+                        <p>🆚 Domingo - Jogos</p>
+                        <p>📊 Análise de desempenho</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-apple-alt"></i> Dieta e Nutrição</h3>
+                        <p>🍗 Alta ingestão de proteínas</p>
+                        <p>🍚 Carboidratos complexos</p>
+                        <p>💧 Hidratação constante</p>
+                        <p>🚫 Zero açúcar refinado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section" id="contact">
+            <h2 class="section-title">Contato para Propostas</h2>
+            <p>Estou aberto a oportunidades profissionais no futebol. Entre em contato para conversarmos sobre possibilidades de trabalho.</p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-envelope"></i> Email</h3>
+                        <p>vitor.atleta@gmail.com</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-phone"></i> Telefone</h3>
+                        <p>(48) 99914-7421</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3><i class="fas fa-map-marker-alt"></i> Localização</h3>
+                        <p>Santa Catarina, Brasil</p>
+                        <p>Disponível para transferências</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="index.html" class="footer-link">Desenvolvedor</a>
+            <a href="professor.html" class="footer-link">Professor</a>
+            <a href="#contact" class="footer-link">Contato</a>
+        </div>
+        <p>&copy; 2024 Vitor Luiz. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
